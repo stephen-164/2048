@@ -69,7 +69,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   inner.classList.add("tile-inner");
   
   var text = document.createElement("span");
-  text.textContent = tile.getText();
+  text.innerHTML = tile.getText();
   inner.appendChild(text);
 
   if (tile.previousPosition) {
