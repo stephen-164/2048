@@ -319,7 +319,7 @@ hr {
 .tile, .tile .tile-inner {
   width: 107px;
   height: 107px;
-  line-height: 116.25px; }
+  line-height: 131.25px; }
   .tile span, .tile .tile-inner span {
     line-height: normal;
     display: inline-block; }
@@ -402,7 +402,7 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 20px; }
   .tile.tile-2 .tile-inner {
     background: #edeee9; }
   .tile.tile-4 .tile-inner {
@@ -755,7 +755,7 @@ hr {
   .tile, .tile .tile-inner {
     width: 58px;
     height: 58px;
-    line-height: 67.5px; }
+    line-height: 82.5px; }
     .tile span, .tile .tile-inner span {
       line-height: normal;
       display: inline-block; }
