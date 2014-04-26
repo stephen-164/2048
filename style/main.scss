@@ -418,17 +418,17 @@ hr {
   $limit: 11;
 
   // Colors for all 11 states, false = no special color
-  $special-colors: false false, // 2
-                   false false, // 4
-                   #f78e48 true, // 8
-                   #fc5e2e true, // 16
-                   #ff3333 true, // 32
-                   #ff0000 true, // 64
-                   false true, // 128
-                   false true, // 256
-                   false true, // 512
-                   false true, // 1024
-                   false true; // 2048
+  $special-colors: #edf7f7 true, // 2
+                   #ebfcff true, // 4
+                   #d7f0ff true, // 8
+                   #c3e1fa true, // 16
+                   #91bef5 true, // 32
+                   #8eb4fa true, // 64
+                   #00a0dc true, // 128
+                   #018cd2 true, // 256
+                   #077cca true, // 512
+                   #0540a2 true, // 1024
+                   #0202b5 true; // 2048
 
   // Build tile colors
   @while $exponent <= $limit {
