@@ -25,3 +25,7 @@ Tile.prototype.serialize = function () {
     value: this.value
   };
 };
+
+Tile.prototype.getText = function () {
+  return this.value;
+};
